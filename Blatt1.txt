@@ -1,0 +1,34 @@
+2a)
+public bool searchNumber(int[] array, int gesuchteZahl){
+	for(int i = 0, i < array.lenght(), i++){
+		if([i] == gesuchteZahl){
+			return true;
+		}
+	}
+	return false;
+}
+
+
+b)
+
+public bool searchNumber(int[] array, int gesuchteZahl){
+	int i;
+	int y;
+	if(array[array.length/2]<gesuchteZahl){
+			i = array.lenght()/2;
+			y = array.lenght();
+	}
+	elseIf(array[array.lenght/2)>gesuchteZahl){
+		i = 0;
+		y = arry.lenght()/2;
+	}
+	elseIf(array[array.lenght/2]==gesuchteZahl){
+		return true;
+	}
+	for(i<y, i++){
+		if(array[i] == gesuchteZahl){
+			return true;
+		}
+	}
+	return false;
+}
